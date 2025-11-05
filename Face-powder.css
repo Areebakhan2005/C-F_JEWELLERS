@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+}
+.hd1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+}
+.hd1p1{
+    /* font-size: ; */
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.hd1p2{
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 8px;
+}
+.hd2{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FDAAAA; */
+    background-color: #FFD5D5;
+    color: #4a4849;
+    width: 100%;
+    /* height: ; */
+}
+.hi{
+    width: 70px;
+    margin-left: 80px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 3px;
+}
+.hnav{
+    padding-right: 60px;
+    padding-top: 24px;
+}
+.fa-cart-arrow-down{
+    font-size: 22px;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropbtn {
+    color: #fff;
+}
+.dropbtn {
+  background-color: #FFD5D5;
+  color: #4a4849;
+  font-weight: 550;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.s1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #4a4849;
+    width: 125px;
+    font-size: 20px;
+    color: #4a4849;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.s2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.s2i{
+    width: 270px;
+}
+.s2a2{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #a4a2a3;
+}
+.s2a2:hover{
+    /* color: #FFD5D5; */
+    color: #FDAAAA;
+}
+.s2p1{
+    padding-top: 15px;
+}
+.s2a3{
+    color: #4a4849;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.s2a3:hover{
+    color: #FDAAAA;
+}
+.s2p3{
+    color: #000;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.s2s:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.fd1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: #FFD5D5;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+.fs{
+    font-weight: 900;
+}
+.fs1p{
+    width: 280px;
+    font-size: 19px;
+    color: #4a4849;
+    line-height: 1.4;
+}
+.fd1h{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.fs2t{
+    list-style-type: none;
+}
+.fnav{
+    text-decoration: none;
+    color: #4a4849;
+    line-height: 2;
+    font-size: 19px;
+}
+.fnav:hover{
+    color: #fff;
+}
+.fs3{
+    padding-left: 90px;
+}
+.fs3l1{
+    font-size: 19px;
+    color: #4a4849;
+}
+.fs3l2{
+    font-size: 19px;
+    color: #4a4849;
+}
+.fs3i{
+    font-size: 19px;
+    height: 30px;
+    width: 260px;
+}
+.fs3b{
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.fs3b:hover{
+    background-color: #4a4849;
+    border: 1px solid #4a4849;
+
+}
+.fs4{
+    padding-left: 50px;
+}
+.fd2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.fnav2{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.fnav2:hover{
+    color: #FFD5D5;
+}

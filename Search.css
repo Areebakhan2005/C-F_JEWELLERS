@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+}
+.hd1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+}
+.hd1p1{
+    /* font-size: ; */
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.hd1p2{
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 8px;
+}
+.hd2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #4a4849;
+    width: 100%;
+    /* height: ; */
+}
+.hi{
+    width: 70px;
+    padding-left: 80px;
+}
+.hnav{
+    padding-right: 60px;
+    padding-top: 24px;
+}
+.fa-cart-arrow-down{
+    font-size: 22px;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+}
+.dropbtn {
+  background-color: #fff;
+  color: #4a4849;
+  font-weight: 550;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+main{
+    background-image: url(photography-modern-luxury-woman-stylish-jewelry_1288657-191166.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 840px;
+}
+.p1{
+    color: red;
+    font-size: 50px;
+    padding-left: 170px;
+    padding-top: 150px;
+    font-weight: 550;
+}
+.sp1{
+    color: #000;
+}
+.search-box{
+    /* display: flex; */
+    position: absolute; 
+    top: 350px;
+    left: 70px;
+    height: 45px;
+    max-width: 555px;
+    width: 100%;
+    opacity: 1;
+    /* pointer-events: none; */
+}
+.mg{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    left: 7px;
+    color: #4a4849;
+    /* transform: translateY(-190%); */
+}
+.micro{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    left: 540px;
+    color: #4a4849;
+    font-size: 22px;
+}
+.camra{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    left: 574px;
+    color: #4a4849;
+    font-size: 22px;
+}
+.a1{
+    position: absolute;
+    text-decoration: none;
+    color: #4a4849;
+    left: 43px;
+    top: 13px;
+    width: 500px;
+}
+/* .search-box img{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    left: 45px;
+    color: blue;
+    transform: translateY(-190%);
+
+} */
+.search-box input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 0 15px 0 45px;
+}
+.box{
+    background-color: #fff;
+    margin-top: 64px;
+    margin-left: 70px;
+    width: 615px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+hr{
+    width: 590px;
+    margin-left: 10px;
+}
+.p2{
+    margin-left: 10px;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.p3{
+    margin-left: 10px;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.p4{
+    margin-left: 10px;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.fd1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: #FFD5D5;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+.fs{
+    font-weight: 900;
+}
+.fs1p{
+    width: 280px;
+    font-size: 19px;
+    color: #4a4849;
+    line-height: 1.4;
+}
+.fd1h{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.fs2t{
+    list-style-type: none;
+}
+.fnav{
+    text-decoration: none;
+    color: #4a4849;
+    line-height: 2;
+    font-size: 19px;
+}
+.fnav:hover{
+    color: #fff;
+}
+.fs3{
+    padding-left: 90px;
+}
+.fs3l1{
+    font-size: 19px;
+    color: #4a4849;
+}
+.fs3l2{
+    font-size: 19px;
+    color: #4a4849;
+}
+.fs3i{
+    font-size: 19px;
+    height: 30px;
+    width: 260px;
+}
+.fs3b{
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.fs3b:hover{
+    background-color: #4a4849;
+    border: 1px solid #4a4849;
+
+}
+.fs4{
+    padding-left: 50px;
+}
+.fd2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.fnav2{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.fnav2:hover{
+    color: #FFD5D5;
+}

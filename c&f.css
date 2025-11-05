@@ -1,0 +1,364 @@
+*{
+    margin: 0%;
+}
+.hd1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+}
+.hd1p1{
+    /* font-size: ; */
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.hd1p2{
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 8px;
+}
+.hd2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #4a4849;
+    width: 100%;
+    /* height: ; */
+}
+.hi{
+    width: 70px;
+    padding-left: 80px;
+}
+@media (max-width:770px){
+    .hi{
+        padding-left: 10px;
+    }
+    .hd2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.hnav{
+    padding-right: 60px;
+    padding-top: 24px;
+}
+.fa-cart-arrow-down{
+    font-size: 22px;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+}
+.dropbtn {
+  background-color: #fff;
+  color: #4a4849;
+  font-weight: 550;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.s1{
+    background-image: url(pngtree-high-end-atmosphere-simple-wind-makeup-area-banner-image_194935.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 593px;
+}
+.s1d{
+    padding-top: 150px;
+    text-align: center;
+}
+.s1p1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.s1p2{
+    font-size: 35px;
+}
+.s1p3{
+    
+    padding-top: 40px;
+}
+.s1b{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    padding: 10px;
+}
+.s1b:hover{
+    background-color: #4a4849;
+    border: 1px solid #4a4849;
+}
+.s1a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.s2{
+    text-align: center;
+}
+.s2p1{
+    font-size: 35px;
+    color: #4a4849;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    font-weight: 550;
+}
+.s2p2{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+    color: #4a4849;
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+.s3p{
+    text-align: center;
+    color: #4a4849;
+    font-size: 50px;
+    font-weight: 550;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.s3d1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.s3i{
+    width: 280px;
+}
+
+/* .s3i:hover {
+    transition: 1s ease-in;
+     transform: scale(1.2); 
+     object-fit: cover; 
+} */
+ 
+.s3d2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 20px;
+}
+.s3s{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    color: #4a4849;
+    /* font-weight: 550; */
+}
+.s4p{
+    text-align: center;
+    color: #4a4849;
+    font-size: 50px;
+    font-weight: 550;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.s4d1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.s4i{
+    width: 280px;
+}
+.s4d2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 20px;
+}
+.s4s{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    color: #4a4849;
+}
+.s5p{
+    text-align: center;
+    color: #4a4849;
+    font-size: 50px;
+    font-weight: 550;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.s5d1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.s5{
+    text-align: center;
+}
+.s5i{
+    width: 230px;
+}
+.s5a2{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #a4a2a3;
+}
+.s5a2:hover{
+    /* color: #FFD5D5; */
+    color: #FDAAAA;
+}
+.s5p1{
+    padding-top: 15px;
+}
+.s5a3{
+    color: #4a4849;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.s5a3:hover{
+    color: #FDAAAA;
+}
+.s5p3{
+    color: #000;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.s5d2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+.s5s:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.fd1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: #FFD5D5;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+.fs{
+    font-weight: 900;
+}
+.fs1p{
+    width: 280px;
+    font-size: 19px;
+    color: #4a4849;
+    line-height: 1.4;
+}
+.fd1h{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.fs2t{
+    list-style-type: none;
+}
+.fnav{
+    text-decoration: none;
+    color: #4a4849;
+    line-height: 2;
+    font-size: 19px;
+}
+.fnav:hover{
+    color: #fff;
+}
+.fs3{
+    padding-left: 90px;
+}
+.fs3l1{
+    font-size: 19px;
+    color: #4a4849;
+}
+.fs3l2{
+    font-size: 19px;
+    color: #4a4849;
+}
+.fs3i{
+    font-size: 19px;
+    height: 30px;
+    width: 260px;
+}
+.fs3b{
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.fs3b:hover{
+    background-color: #4a4849;
+    border: 1px solid #4a4849;
+
+}
+.fs4{
+    padding-left: 50px;
+}
+.fd2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.fnav2{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.fnav2:hover{
+    color: #FFD5D5;
+}
